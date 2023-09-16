@@ -4,14 +4,14 @@
 #include <string.h>
 #define color system("COLOR B")
 #define ESC 27
-#include "../../Firma/Firma.h"
+#include "Firma.h"
 #define DIM 10
 
 
 /**
-Escribir un programa que lea edades de un arreglo din·mico de 10 posiciones para combinarlas con 10 nombres leÌdos de otro arreglo est·tico
-de 10 posiciones. Una vez leÌdos ambos datos, debe generar un registro con esa info,
-el cual ser· agregado a una lista ordenada que finalmente mostrar· por pantalla.
+Escribir un programa que lea edades de un arreglo din√°mico de 10 posiciones para combinarlas con 10 nombres le√≠dos de otro arreglo est√°tico
+de 10 posiciones. Una vez le√≠dos ambos datos, debe generar un registro con esa info,
+el cual ser√° agregado a una lista ordenada que finalmente mostrar√° por pantalla.
 Luego, guardar esa lista en un archivo de texto o binario y eliminar la lista.
  Finalmente mostrar el archivo resultante. Modularizar. :O
 */
