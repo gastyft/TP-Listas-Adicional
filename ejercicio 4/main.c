@@ -7,9 +7,9 @@
 
 
 
-/** Escribir un programa que permita generar una lista con números aleatorios entre 1 y 100 de por lo menos 50 elementos.
-Una vez generada la lista, recorrerla para guardar en un arreglo dinámico de 10 elementos (inicialmente), todos los números pares de la lista
-y en un archivo binario, todos los números impares. Finalmente mostrar el archivo, el arreglo dinámico y eliminar la lista. Modularizar.
+/**â€“ Escribir un programa que permita crear una lista con nÃºmeros enteros y luego buscar y eliminar todos los nodos que coincidan con la bÃºsqueda de uno de ellos.
+Tener en cuenta que al buscar un determinado nÃºmero, el mismo puede aparecer mas de una vez.
+Por lo cual se deben eliminar todas sus ocurrencias y luego informar cuantos nodos fueron eliminados.
 */
 
 
