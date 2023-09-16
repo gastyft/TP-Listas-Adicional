@@ -13,7 +13,7 @@ Escribir un programa que lea edades de un arreglo dinámico de 10 posiciones par
 de 10 posiciones. Una vez leídos ambos datos, debe generar un registro con esa info,
 el cual será agregado a una lista ordenada que finalmente mostrará por pantalla.
 Luego, guardar esa lista en un archivo de texto o binario y eliminar la lista.
- Finalmente mostrar el archivo resultante. Modularizar. :O
+ Finalmente mostrar el archivo resultante. Modularizar.  
 */
 
 typedef struct
@@ -86,7 +86,7 @@ void cargar_arreglo_edad(int *a_edad )
 {
     int numero;
     int i=0;
-    while(  i<1)
+    while(  i<10)
     {
 
         printf("Ingrese edad \n");
@@ -103,7 +103,7 @@ Persona cargar_arreglo_nombres(Persona arreglo[DIM])
 {
     int i=0;
     Persona pers;
-    while(i<1)
+    while(i<10)
     {
         printf("INGRESE NOMBRE \n");
         fflush(stdin);
@@ -152,7 +152,7 @@ ListadePersonas *integrar_lista(ListadePersonas *lista,int *a_edad, Persona arre
     int i=0;
     Persona pers;
 
-    while(i<1)
+    while(i<10)
     {
         strcpy(pers.nombre,arreglo[i].nombre);
         pers.num=a_edad[i];
